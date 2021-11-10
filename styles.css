@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+}
+
+body {
+	max-width: 40%;
+  min-width: 350px;
+	margin: 0 auto;
+	margin-top: 3rem;
+  background-image: url("beach.jpeg"); center center no-repeat; 
+  background-position:fixed; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  height: 900px;
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+hr {
+  color: rgb(24, 201, 201);
+  opacity: 0.5;
+}
+
+.float-right {
+	text-align: right;
+	margin-top: 0.5rem;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  border: solid rgb(24, 201, 201) 0.10rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+.toDoItem {
+  position: relative;
+  padding: 10px 40px 10px 3%;
+
+}
+
+  /* This code will change text on first line into ellipsis instead:
+  
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+
+
+/* Changed from Meetup */
+.toDoItem i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -8px;
+  padding-right: 3%;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+#newToDoInput:focus {
+  border-color: rgb(24, 201, 201);
+  box-shadow: 0px 1px 1px rgba(6, 90, 111, 0.075) inset, 0px 0px 8px rgb(48, 237, 237);
+}
+
+#newToDoButton {
+  background-color: rgb(255, 239, 218);
+  font-size: 1.5rem;
+  width: 3rem;
+}
+
+.far {
+  position: absolute;
+  right: 3%;
+  color:rgb(24, 201, 201);
+}
+
+.huge {
+  font-size: 5rem;
+}
+
+
+/* #tasks {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
